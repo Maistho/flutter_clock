@@ -1,0 +1,31 @@
+name: binary_clock
+org: se.gustavbylund
+description: Clock with a binary background
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/SourceCodePro-Regular.ttf
+    - assets/fonts/SourceCodePro-SemiBold.ttf
+    - assets/fonts/SourceCodePro-Bold.ttf
+  fonts:
+    - family: SourceCodePro
+      fonts:
+        - asset: assets/fonts/SourceCodePro-Regular.ttf
+        - asset: assets/fonts/SourceCodePro-SemiBold.ttf
+        - asset: assets/fonts/SourceCodePro-Bold.ttf
